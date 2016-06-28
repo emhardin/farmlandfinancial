@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-06-24 14:07:00 -0500
-categories: jekyll update
+title:  "Three ways to profit in agriculture from Brexit"
+date:   2016-06-27 16:11:00 -0500
+categories: post update
+href: http://agrimoney.com/feature/three-ways-to-profit-in-agriculture-from-brekit--450.html
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+"The UK's world-shocking vote to leave the European Union has brought with it plenty of danger for investors.  But, as ever with periods of gargantuan change, there is opportunity too."  
+agrimoney' Mike Verdin describes the opportunities available to the agriculture sector from Brexit.

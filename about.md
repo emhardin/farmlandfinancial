@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Farmland Financial is focused on providing information geared towards investment in farmland and factors affecting the value of farmland throughout the United States.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+This webpage is managed by Erin M. Hardin, PhD Candidate, Texas A&M University & Research Assistant, Agriculture & Food Policy Center at Texas A&M.  Ms. Hardin is a fourth year PhD student in the department of Agricultural Economics.  She received a bachelor of Business Administration with a majors in Finance and Economics from the Quinlan School of Business at Loyola University Chicago.  She is a native of Kansas City, Missouri.  
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Questions and comments are welcomed and encouraged.  Please feel free to email me at emhardin210@gmail.com.
