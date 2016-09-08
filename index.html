@@ -2,24 +2,37 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home home-col-wrapper">
+  <div class="posts half">
+  
+    <h1 class="page-heading">Posts</h1>
 
-  <h1 class="page-heading">Posts</h1>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h2>
+            <a class="post-link" href="{{ post.href }}">{{ post.title }}</a>
+          </h2>
+          <small>{{ post.content }}</small>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>    
 
-        <h2>
-          <!-- url | prepend: site.baseurl -->
-          <a class="post-link" href="{{ post.href }}">{{ post.title }}</a>
-        </h2>
-        <small>{{ post.content }}</small>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <div class="graphs half">
+    <ul class="graph-list">
+      {% for graph in site.graphs %}
+        <li>
+          <a href="{{ site.baseurl }}/graphs/{{ graph.image }}" data-lightbox="frontpage" data-title="{{ graph.title }}">
+            <img src="{{ site.baseurl }}/graphs/{{ graph.image }}" alt="{{ graph.title }}" />
+          </a>
+          <span class="graph-meta">{{ graph.title }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 </div>

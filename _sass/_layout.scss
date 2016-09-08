@@ -175,7 +175,8 @@
     font-size: 20px;
 }
 
-.post-list {
+.post-list,
+.graph-list {
     margin-left: 0;
     list-style: none;
 
@@ -184,7 +185,8 @@
     }
 }
 
-.post-meta {
+.post-meta,
+.graph-meta {
     font-size: $small-font-size;
     color: $grey-color;
 }
@@ -192,6 +194,19 @@
 .post-link {
     display: block;
     font-size: 24px;
+}
+
+.home-col-wrapper {
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+.half {
+  float: left;
+  margin-bottom: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;  
+  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+  width:         calc(50% - (#{$spacing-unit} / 2));
 }
 
 
