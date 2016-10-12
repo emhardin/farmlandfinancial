@@ -2,7 +2,9 @@
 layout: page
 title: About
 permalink: /about/
+image: erin.png
 ---
+
 
 Farmland Financial is focused on providing information geared towards investment in farmland and factors affecting the value of farmland throughout the United States.
 
