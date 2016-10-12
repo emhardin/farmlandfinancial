@@ -23,7 +23,8 @@ layout: default
 
   <div class="graphs half">
     <ul class="graph-list">
-      {% for graph in site.graphs %}
+      {% assign graphs = site.graphs | sort: 'dat' %}
+      {% for graph in site.graphs reversed limit:7 %}
         <li>
           <a href="{{ site.baseurl }}/graphs/{{ graph.image }}" data-lightbox="frontpage" data-title="{{ graph.title }}">
             <img src="{{ site.baseurl }}/graphs/{{ graph.image }}" alt="{{ graph.title }}" />
