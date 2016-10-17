@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![Erin Hardin]({{ site.baseurl }}/assets/erin-hardin.jpg){: .selfie}
+![Erin M. Hardin]({{ site.baseurl }}/assets/erin-m-hardin.jpg){: .selfie}
 
 Farmland Financial is focused on providing information geared towards investment in farmland and factors affecting the value of farmland throughout the United States.
 
